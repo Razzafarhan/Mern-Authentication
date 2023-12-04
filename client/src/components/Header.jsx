@@ -24,7 +24,7 @@ export default function Header() {
 
                     </Link>
 
-                    <Link to='/profile'>
+                    <Link to='/sign-in'>
 
                         <li>Sign In</li>
                     </Link>
