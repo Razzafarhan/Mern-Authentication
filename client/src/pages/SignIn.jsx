@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import { signInFailure, signInStart, signInSuccess } from '../redux/user/userSlice';
 import { useDispatch, useSelector } from 'react-redux';
+import OAuth from '../components/OAuth';
 
 
 
@@ -63,6 +64,7 @@ export default function SignIn() {
 
 
                 </button>
+                <OAuth />
 
             </form>
 
